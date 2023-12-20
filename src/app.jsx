@@ -1,13 +1,13 @@
-import Contacto from "./components/Contacto";
-import ItemDetailContainer from "./components/ItemDetailContainer";
-import ItemListContainer from "./components/ItemListContainer";
-import Navbar from "./components/Navbar";
-import Nosotros from "./components/Nosotros";
+import Contacto from "./componentes/Contacto";
+import ItemDetailContainer from "./componentes/ItemDetailContainer";
+import ItemListContainer from "./componentes/ItemListContainer";
+import Navbar from "./componentes/Navbar"
+import Nosotros from "./componentes/Nosotros";
 import "./main.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { CartProvider } from "./context/CartContext";
-import Carrito from "./components/Carrito";
-import Checkout from "./components/Checkout";
+import Carrito from "./componentes/Carrito";
+import Checkout from "./componentes/Checkout";
 
 function App() {
     return (
